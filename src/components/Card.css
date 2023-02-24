@@ -1,0 +1,39 @@
+li {
+        width: 100%;
+}
+.ul{
+    display: flex;
+        width: 300%;
+            list-style: none;
+            
+    animation: cambio 12s infinite alternate;
+}
+
+.div{
+        width: 100%;
+            overflow: hidden;
+            margin: auto;
+            overflow-x: scroll;
+}
+img{
+    width: 100%;
+}
+
+@keyframes cambio {
+    0%{
+        margin-left: 0;
+    }
+    25% {
+            margin-left: 0;
+        }
+    50%{
+        margin-left: -100%;
+    }
+    75%{
+        margin-left: -100%;
+    }
+    100%{
+        margin-left: -200%;
+    }
+    
+}
