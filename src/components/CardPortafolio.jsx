@@ -85,7 +85,7 @@ const CardPortafolio = ({ portinfo }) => {
           ))}
           </div>
           <div className="button-container">
-            <a href={demo} target="_blank">Demo</a>
+            {demo ? <a href={demo} target="_blank">Demo</a> : '' }
             {github ? <a href={github} target="_blank">Github</a> : '' }
           </div>
         </div>

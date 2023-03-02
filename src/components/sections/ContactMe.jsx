@@ -38,11 +38,6 @@ const ContactMe = ({post,scrollRef, mode}) => {
     },
   }
   
-  // const client = new ApolloClient({
-  //   uri: 'http://localhost:4000/graphql',
-  //   cache: new InMemoryCache()
-  // });
-  
   const handleSubmit = async(event) => {
     event.preventDefault();
     try {
@@ -52,21 +47,8 @@ const ContactMe = ({post,scrollRef, mode}) => {
         // la validación ha sido exitosa, podemos enviar el formulario
         reset()
     } catch (error) {
-      // setErrorMsg(err.message);
-      // err.inner.forEach((error) => {
-          toast.error(error.message);
-        //   toast.error(error.message,{
-        //     position: "top-right",
-        //     autoClose: 3000,
-        //     hideProgressBar: false,
-        //     closeOnClick: true,
-        //     pauseOnHover: true,
-        //     draggable: true,
-        //     progress: undefined,
-        //     theme: "dark",
-        //     });
-        // });
-      // })
+      toast.error(error.message);
+
     }
     
 
