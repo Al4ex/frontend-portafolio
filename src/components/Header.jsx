@@ -39,7 +39,7 @@ const Header = ({mode,setMode}) => {
             </li>
             <li className="nav__item">
               <a href="#experience" className="nav__link">
-                <RiBriefcaseFill className="nav__icon" /> Experiensa
+                <RiBriefcaseFill className="nav__icon" /> Experiencia
               </a>
             </li>
             <li className="nav__item">

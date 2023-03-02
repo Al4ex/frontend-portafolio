@@ -41,7 +41,7 @@ export const portfolio =
         },
         experience: {
             full: {
-               es: 'Años de experiensa'
+               es: 'Años de experiencia'
             },
             proyects: {
                 es: 'Proyectos completados'
@@ -122,7 +122,7 @@ export const portfolio =
     },
     experience: {
         title: {
-            es: "Experiensa",
+            es: "Experiencia",
             en: "Experience"
         },
         subtitle: {
@@ -148,7 +148,7 @@ export const portfolio =
                     en: 'Full Stack Developer',
                 },
                 subtitle: {
-                    es: 'Frelance',
+                    es: 'Frelance Nuup Health Co.',
                     en: 'Frelance',
                 },
                 years: '2021'
@@ -173,8 +173,8 @@ export const portfolio =
                     en: 'Backend Developer',
                 },
                 subtitle: {
-                    es: 'SMART HEALT SOLUTIONS',
-                    en: 'SMART HEALT SOLUTIONS',
+                    es: 'SMART HEALTH SOLUTIONS',
+                    en: 'SMART HEALTH SOLUTIONS',
                 },
                 years: 'Ago 2020-Dic. 2020'
 
