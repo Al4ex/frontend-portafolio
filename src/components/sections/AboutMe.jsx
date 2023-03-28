@@ -1,6 +1,6 @@
 import React from "react";
 import { portfolio } from "../../info/info";
-import CV from "../../assets/pdf/CV.pdf"
+import CV from "../../assets/pdf/CV_Alexander_CRUZ_ARAGON.pdf"
 
 const AboutMe = ({ scrollRef, post }) => {
   const lang = 'es'
